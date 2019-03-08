@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modal</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="head">
+      <h2>Modal</h2>
+      <button id="myBtn">Open Modal</button>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-5">
+                <img src="images/img-popup.png" alt="wine" class="img-fluid">
+              </div>
+              <div class="col-7">
+                <div class="form-text">
+                  <h2 class="modal-title">Gửi Email</h2>
+                  <p class="modal-paragraph">Đăng kí Email ngay hôm nay để nhận được các thông tin về các sự kiện, các
+                    chương
+                    trình giảm giá của chúng tôi sớm nhất!</p>
+                </div>
+
+                <form action= "" class="d-flex">
+                  <div class="form-group email-input">
+                    <input type="text" class="form-control" placeholder="Email của bạn...">
+                  </div>
+
+                  <div class="form-group">
+                    <button class="btn-send-mail" type="button">GỬI EMAIL</button>
+                  </div>
+                </form>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="hideNoti">
+                  <label class="form-check-label" for="hideNoti">Không hiển thị lại thông báo này</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/style.js"></script>
+
+</body>
+
+</html>
